@@ -1,0 +1,25 @@
+{
+    "name": "tegar/email-service",
+    "description": "A simple email sending API with OAuth2 authentication and queue processing.",
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php -r \"file_exists('vendor/autoload.php') || copy('vendor/autoload.php', 'vendor/autoload.php');\""
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
