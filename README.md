@@ -3,6 +3,7 @@
 ## Overview
 
 This API allows clients to send emails via a RESTful interface using PHP 7.3. It features OAuth2 authentication, message queuing, and PostgreSQL for storing sent messages.
+Simple Design - to easy to maintain and read.
 
 ## System Design
 
@@ -75,8 +76,8 @@ This API allows clients to send emails via a RESTful interface using PHP 7.3. It
 
 - **Method**:
     - `Post`
--**Endpoint**:
-    -`http://localhost:8000/api.php`
+- **Endpoint**:
+    - `http://localhost:8000/api.php`
 
 - **Function**:
     -`Send an email.`
@@ -115,5 +116,5 @@ This API allows clients to send emails via a RESTful interface using PHP 7.3. It
         "error": "Method not allowed"
         }
 
-
-
+## Disclaimer
+``` I'm not using MVC to make the code simpler and not adding any other libraries in purpose to maximize the utility of PHP ```
