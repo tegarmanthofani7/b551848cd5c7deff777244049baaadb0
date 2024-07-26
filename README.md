@@ -42,7 +42,7 @@ This API allows clients to send emails via a RESTful interface using PHP 7.3. It
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/tegar-manthofani/repo.git
+    git clone https://github.com/tegarmanthofani7/b551848cd5c7deff777244049baaadb0
     cd repo
     ```
 
