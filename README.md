@@ -13,6 +13,7 @@ This API allows clients to send emails via a RESTful interface using PHP 7.3. It
 - **Authentication**: Simple OAuth2 for secure access.
 
 ## System Diagram
+```
 +--------------------+
 |     Client         |
 | (API Requests)     |
@@ -36,7 +37,7 @@ This API allows clients to send emails via a RESTful interface using PHP 7.3. It
                          | Worker/Service   |
                          +------------------+
 
-
+```
 ## Installation
 
 1. **Clone the Repository:**
@@ -55,7 +56,7 @@ This API allows clients to send emails via a RESTful interface using PHP 7.3. It
 3. **Set Up PostgreSQL Database:**
 
     ```bash
-    psql -U your_user -d email_db -f migrations/create_emails_table.sql
+    psql -U your_user -d email_db -f emails.sql
     ```
 
 4. **Start RabbitMQ (or your message broker).**
